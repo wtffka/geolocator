@@ -35,8 +35,8 @@ env:
 # #     version: "16.13"
 
 rules:
-#  linebreak-style: ["error", "windows"]
-  "import/prefer-default-export": off
+  linebreak-style: ["error", "windows"]
+  import/prefer-default-export: off
   import/extensions: 0
   # TODO: cause an error
   import/no-unresolved: 0
