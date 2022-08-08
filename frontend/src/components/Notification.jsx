@@ -6,10 +6,6 @@ import { Alert } from 'react-bootstrap';
 import { useTranslation } from 'react-i18next';
 
 import { selectors } from '../slices/notificationSlice.js';
-import getLogger from '../lib/logger.js';
-
-const log = getLogger('notification');
-log.enabled = true;
 
 const Notification = () => {
   const messages = useSelector(selectors.selectAll);

@@ -1,10 +1,5 @@
 import { createSlice, createEntityAdapter } from '@reduxjs/toolkit';
 
-import getLogger from '../lib/logger.js';
-
-const log = getLogger('slice notifications');
-log.enabled = true;
-
 const adapter = createEntityAdapter();
 const initialState = adapter.getInitialState();
 
