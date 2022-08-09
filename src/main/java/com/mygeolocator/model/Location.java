@@ -14,7 +14,7 @@ import javax.persistence.Column;
 
 
 @Entity
-@Table(name = "locations", schema = "geolocator")
+@Table(name = "locations")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor

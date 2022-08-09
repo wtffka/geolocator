@@ -14,7 +14,7 @@ import javax.persistence.GenerationType;
 
 
 @Data
-@Table(name = "countries", schema = "geolocator")
+@Table(name = "countries")
 @Entity
 @NoArgsConstructor
 @AllArgsConstructor

@@ -17,7 +17,7 @@ import javax.persistence.FetchType;
 
 @Entity
 @Data
-@Table(name = "cities", schema = "geolocator")
+@Table(name = "cities")
 @AllArgsConstructor
 @NoArgsConstructor
 public class City {
