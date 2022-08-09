@@ -1,12 +1,12 @@
-#spring:
-#  devtools:
-#    restart:
-#      enabled: false
-#    livereload:
-#      enabled: false
-#
-#  datasource:
-#    url: ${JDBC_DATABASE_URL}
-#
-#  jpa:
-#    show-sql: true
+spring:
+  devtools:
+    restart:
+      enabled: false
+    livereload:
+      enabled: false
+
+  datasource:
+    url: ${JDBC_DATABASE_URL}
+
+  jpa:
+    show-sql: true
